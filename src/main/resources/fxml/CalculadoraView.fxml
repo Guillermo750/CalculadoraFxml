@@ -24,24 +24,24 @@
   </rowConstraints>
    <children>
       <TextField fx:id="pantalla" alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="34.0" prefWidth="283.0" promptText="0.0" GridPane.columnSpan="5" />
-      <Button fx:id="numero4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCuatroAction" text="4" GridPane.rowIndex="2" />
-      <Button fx:id="numero5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCincoAction" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Button fx:id="numero6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onSeisAction" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-      <Button fx:id="numero7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onSieteAction" text="7" GridPane.rowIndex="1" />
-      <Button fx:id="numero8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onOchoAction" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <Button fx:id="numero9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNueveAction" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <Button fx:id="numeroce" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#botonCE" text="CE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-      <Button fx:id="numero1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onUnoAction" text="1" GridPane.rowIndex="3" />
-      <Button fx:id="numero2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onDosAction" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-      <Button fx:id="numero3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onTresAction" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-      <Button fx:id="numeroc" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#botonC" text="C" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-      <Button fx:id="igual1" defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#calcular" text="=" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.rowSpan="2" />
-      <Button fx:id="numero0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCeroAction" text="0" GridPane.columnSpan="2" GridPane.rowIndex="4" />
-      <Button fx:id="multiplicacion" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#multiplicar" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-      <Button fx:id="division" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#dividir" text="/" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-      <Button fx:id="suma" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#sumar" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-      <Button fx:id="resta" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#restar" text="-" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-      <Button fx:id="coma" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#anadeComa" text="." GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Button fx:id="numero4Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCuatroAction" text="4" GridPane.rowIndex="2" />
+      <Button fx:id="numero5Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCincoAction" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button fx:id="numero6Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onSeisAction" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Button fx:id="numero7Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onSieteAction" text="7" GridPane.rowIndex="1" />
+      <Button fx:id="numero8Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onOchoAction" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button fx:id="numero9Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onNueveAction" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button fx:id="numeroceButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#botonCE" text="CE" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Button fx:id="numero1Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onUnoAction" text="1" GridPane.rowIndex="3" />
+      <Button fx:id="numero2Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onDosAction" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Button fx:id="numero3Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onTresAction" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Button fx:id="numerocButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#botonC" text="C" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Button fx:id="igual1Button" defaultButton="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#calcular" text="=" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.rowSpan="2" />
+      <Button fx:id="numero0Button" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCeroAction" text="0" GridPane.columnSpan="2" GridPane.rowIndex="4" />
+      <Button fx:id="multiplicacionButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#multiplicar" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Button fx:id="divisionButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#dividir" text="/" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <Button fx:id="sumaButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#sumar" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Button fx:id="restaButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#restar" text="-" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Button fx:id="comaButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#anadeComa" text="," GridPane.columnIndex="2" GridPane.rowIndex="4" />
    </children>
    <padding>
       <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />

@@ -1,0 +1,274 @@
+/*Raíz*/
+.root {
+    -fx-background-color: #000000;
+    -fx-font-family: monospace;
+    -fx-button-hgap: 5px;
+    -fx-button-vgap: 5px;
+    -fx-padding-top: 5px;
+}
+
+/*Cuadros de texto*/
+.text-field {
+   -fx-text-fill: #D3D3D3;
+   -fx-text-align: left;
+   -fx-font-size: 25pt;
+   -fx-font-weight: bold;
+   -fx-padding-top: 10px;
+   -fx-background-color: transparent;
+   -fx-background-inset-top: 0px;
+}
+
+/*Botones*/
+.button {
+   -fx-font-size: 16pt;
+   -fx-background-radius: 5em;
+   -fx-background-inset: 0px;
+   -fx-background-radius: 0px;
+   -fx-border-radius: 5em;
+}
+
+/*Botones con foco (:focused)*/
+.button:focused {
+    -fx-border-color: white;
+}
+
+/*Botones armados (:armed)*/
+.button:armed{
+    -fx-border-color: yellow;
+}
+
+/*Botones numéricos (0, 1, 2, ..., 9 y la coma)*/
+#numero0Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#numero1Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#numero2Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#numero3Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#numero4Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#numero5Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#numero6Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#numero7Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#numero8Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#numero9Button {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+#comaButton {
+    -fx-text-fill: white;
+    -fx-background-color: #A9A9A9; /*Gris Oscuro*/
+}
+
+/*Botones numéricos con ratón encima (:hover):*/
+#numero0Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#numero1Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#numero2Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#numero3Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#numero4Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#numero5Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#numero6Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#numero7Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#numero8Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#numero9Button:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+#comaButton:hover {
+    -fx-text-fill: #A9A9A9; /*Gris Oscuro*/
+    -fx-background-color: white;
+}
+
+/*Botones numéricos pulsados (:pressed)*/
+#numero0Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numero1Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numero2Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numero3Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numero4Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numero5Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numero6Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numero7Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numero8Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numero9Button:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#comaButton:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+
+/*Botones de reinicio (CE, C)*/
+#numeroceButton {
+    -fx-text-fill: black;
+    -fx-background-color: #D3D3D3; /*Gris Claro*/
+}
+#numerocButton {
+    -fx-text-fill: black;
+    -fx-background-color: #D3D3D3; /*Gris Claro*/
+}
+
+/*Botones de reinicio con ratón encima (:hover)*/
+#numeroceButton:hover {
+    -fx-background-color: white;
+}
+#numerocButton:hover {
+    -fx-background-color: white;
+}
+
+/*Botones de reinicio pulsados (:pressed)*/
+#numeroceButton:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+#numerocButton:pressed {
+    -fx-text-fill: #D3D3D3; /*Gris Claro*/
+    -fx-background-color: black;
+}
+
+/*Botones de operación (+, -, *, /)*/
+#sumaButton {
+    -fx-text-fill: white;
+    -fx-background-color: orange;
+}
+#restaButton {
+    -fx-text-fill: white;
+    -fx-background-color: orange;
+}
+#multiplicacionButton {
+    -fx-text-fill: white;
+    -fx-background-color: orange;
+}
+#divisionButton {
+    -fx-text-fill: white;
+    -fx-background-color: orange;
+}
+
+/*Botones de operación con ratón encima (:hover)*/
+#sumaButton:hover {
+    -fx-background-color: #FF8C00; /*Naranja Oscuro*/
+}
+#restaButton:hover {
+    -fx-background-color: #FF8C00; /*Naranja Oscuro*/
+}
+#multiplicacionButton:hover {
+    -fx-background-color: #FF8C00; /*Naranja Oscuro*/
+}
+#divisionButton:hover {
+    -fx-background-color: #FF8C00; /*Naranja Oscuro*/
+}
+
+/*Botones de operación por defecto con ratón encima (:hover:default)*/
+#sumaButton:hover:default {
+    -fx-background-color: red;
+}
+#restaButton:hover:default {
+    -fx-background-color: red;
+}
+#multiplicacionButton:hover:default {
+    -fx-background-color: red;
+}
+#divisionButton:hover:default {
+    -fx-background-color: red;
+}
+
+/*Botones de operación pulsados (:pressed)*/
+#sumaButton:pressed {
+    -fx-text-fill: orange;
+    -fx-background-color: white;
+}
+#restaButton:pressed {
+    -fx-text-fill: orange;
+    -fx-background-color: white;
+}
+#multiplicacionButton:pressed {
+
+    -fx-background-color: white;
+}
+#divisionButton:pressed {
+
+    -fx-background-color: white;
+}
+
+/*Botones de operación por defecto (:default)*/
+#igual1Button {
+    -fx-text-fill: white;
+    -fx-background-color: orangered; /*Rojo Anaranjado*/
+}

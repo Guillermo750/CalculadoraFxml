@@ -4,12 +4,15 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import dad.calculadora.CalculadoraApp;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.control.ContextMenu;
+import javafx.scene.control.MenuItem;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 
@@ -33,7 +36,27 @@ public class CalculadoraController implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
+
 		numeros.bindBidirectional(pantalla.textProperty());
+
+		// menú contextual
+		MenuItem clasicoItem = new MenuItem("Clásico");
+		clasicoItem.setOnAction(e ->{
+			System.out.println("Tema clásico seleccionado");
+			view.getStylesheets().add("/css/clasica.css");
+		});
+
+		MenuItem modernoItem = new MenuItem("Moderno");
+		modernoItem.setOnAction(e ->{
+			System.out.println("Tema moderno seleccionado");
+			view.getStylesheets().add("/css/moderna.css");
+		});
+
+		ContextMenu menu = new ContextMenu(clasicoItem, modernoItem);
+
+		view.setOnContextMenuRequested(e ->{
+			menu.show(view, e.getScreenX(), e.getScreenY());
+		});
 	}
 
 	public GridPane getView() {
